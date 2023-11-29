@@ -23,17 +23,21 @@ void hinhvuong(int a)
 void hinhtamgiacvuongcan(int a)
 {
   int i,j;
-  printf("*");
-  for( i= 0; i<a;i++)  
+  for( i= 1; i<=a;i++)  
   { 
-    for(j = 1; j<=i;i++) printf("* ");
-    { 
-      printf("*");
-      for(int j =1;j<a-1;j++) printf(" ");
-      printf("*\n");
+    if(i<=2) for(j = 0; j<i;j++) printf("* ");
+    else if (2<i && i<a) 
+    {
+      for(j = 0; j<i;j++) 
+      {
+        if(j==0||j==i-1) printf("* ");
+        else printf("  ");
+      }
     }
+    else for(j = 0; j<i;j++) printf("* ");
+    printf("\n");
   }
-  for(int i= 0; i<a;i++)   printf("*");
+
 }
 int main() {
   //Khởi tạo giá trị cho biến money
