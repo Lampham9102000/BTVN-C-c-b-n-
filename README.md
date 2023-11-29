@@ -1,4 +1,4 @@
-![image](https://github.com/Lampham9102000/BTVN-C-c-b-n-/assets/150152751/291c7290-9b0a-489e-a14c-ce5411a7a49a)I.	C Cơ bản
+I.	C Cơ bản
 1.	Biến
 a.	Khái niệm về biến
 b.	Cách khai báo biến
@@ -31,6 +31,7 @@ d.	Ví dụ và bài tập
 -	Ví dụ: 
 •	Typedef unsigned char byte; byte var1; byte giờ có kiểu như unsigned chat
 •	Lỗi thường gặp: person1 và person2 lúc này là bí danh của kiểu struct person chứ không phải là 1 biến.
+
 ![image](https://github.com/Lampham9102000/BTVN-C-c-b-n-/assets/150152751/c157097c-9c7f-4f9b-9f7d-bb962fd626ff)
 a.	Cách sử dụng typedef
 8.	Struct
